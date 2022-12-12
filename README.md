@@ -12,4 +12,4 @@
 
 - I will use this repository to store all of my codes from the challenges that I will be solving from there!
 
-### This Repository is about the two fundamentals languages for the Front End Web Development, HTML and CSS.
+#### This Repository is about the fundamental language for the Front End Web Development, which is HTML and CSS for styling!.
