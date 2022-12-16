@@ -5,10 +5,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/styles.css" rel="stylesheet">
     <title>The Basic Language of the Web: HTML</title>
   </head>
   <body>
-    <header>
+    <header class="main-header">
       <h1>📘 The Code Magazine.</h1>
       <nav>
         <a href="blog.html">Blog</a>
@@ -27,7 +28,7 @@
           width="50"
           height="50"
         />
-        <p>
+        <p id="Author">
           Posted by <strong>Waython Yesse</strong> on Monday, December 12th 2022
         </p>
         <img
@@ -92,28 +93,28 @@
     <aside>
       <header>
         <h4>Related Posts</h4>
-        <ul>
+        <ul class="related">
           <li>
             <img src="img/related-1.jpg" width="75" height="75" /><a href="#">
               How to learn Web development</a
             >
-            <p>By Waython Yesse</p
+            <p class="rel-author">By Waython Yesse</p
           </li>
           <li>
             <img src="img/related-2.jpg" width="75" height="75" /><a href="#">
               The unknown powers of CSS</a
             >
-            <p>By Alexla Magessa</p>
+            <p class="rel-author">By Alexla Magessa</p>
           </li>
           <li>
             <img src="img/related-3.jpg" width="75" height="75" /><a href="#">
               Why JavaScript is awesome</a
             >
-            <p>By Waython Yesse</p>
+            <p class="rel-author">By Waython Yesse</p>
           </li>
         </ul>
       </header>
     </aside>
-    <footer>Copyright &copy; <script>document.write(new Date().getFullYear())</script> | J11 Technologies.</footer>
+    <footer><p id="footer">Copyright &copy; <script>document.write(new Date().getFullYear())</script> | J11 Technologies.</p></footer>
   </body>
 </html>

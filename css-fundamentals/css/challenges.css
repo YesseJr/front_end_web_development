@@ -1,0 +1,59 @@
+body {
+  background-color: beige;
+  border: 5px solid #000000;
+  font-family: sans-serif;
+}
+
+.heading {
+  background-color: rgba(128, 128, 128, 0.41);
+  text-align: center;
+  text-transform: uppercase;
+  border-top: 2px solid green;
+  border-bottom: 2px solid green;
+}
+
+header p {
+  font-size: 30px;
+}
+
+.free {
+  font-size: 20px;
+  color: rgba(128, 128, 128, 0.596);
+  text-transform: uppercase;
+}
+
+h4 {
+  text-transform: uppercase;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.footer {
+  font-size: 15px;
+  background-color: rgba(173, 192, 194, 0.925);
+  border-top: 2px solid green;
+  border-bottom: 2px solid green;
+  text-align: center;
+  font-weight: bold;
+}
+
+button {
+  text-transform: uppercase;
+  background-color: black;
+  color: bisque;
+}
+
+button:hover {
+  color: black;
+  background-color: bisque;
+}
+
+.details {
+  list-style: square;
+}

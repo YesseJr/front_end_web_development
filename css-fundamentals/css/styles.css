@@ -1,0 +1,105 @@
+body {
+  font-family: sans-serif;
+  border-top: 20px solid rgb(83, 78, 4);
+}
+
+/* h1,
+h2,
+h3,
+h4,
+p,
+li {
+  font-family: sans-serif;
+} */
+
+h1,
+h2,
+h3,
+h4 {
+  color: darkcyan;
+}
+
+h1 {
+  font-size: 21px;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+p {
+  font-size: 22px;
+  line-height: 1.5;
+}
+
+li {
+  font-size: 20px;
+}
+
+#footer {
+  font-size: 16px;
+  text-align: center;
+}
+
+#Author {
+  font-style: italic;
+  font-size: 18px;
+}
+
+.rel-author {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.related {
+  list-style: none;
+}
+
+.main-header {
+  background-color: #808080cc;
+}
+
+aside {
+  background-color: rgb(251, 255, 254);
+  border-top: 5px solid #1fececcc;
+  border-bottom: 5px solid #1fececcc;
+}
+
+li:first-child {
+  font-weight: bold;
+}
+
+li:last-child {
+  font-style: italic;
+}
+
+a:link {
+  color: darkcyan;
+  text-decoration: none;
+}
+
+a:visited {
+  color: darkcyan;
+}
+
+a:hover {
+  color: darkgoldenrod;
+  font-weight: bold;
+  text-decoration: underline dotted goldenrod;
+}
+
+a:active {
+  background-color: darkslategrey;
+  font-style: italic;
+}
