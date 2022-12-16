@@ -1,6 +1,6 @@
 body {
   font-family: sans-serif;
-  border-top: 20px solid rgb(83, 78, 4);
+  border-top: 5px solid rgb(83, 78, 4);
 }
 
 /* h1,
@@ -47,8 +47,11 @@ li {
   font-size: 20px;
 }
 
-#footer {
-  font-size: 16px;
+.footer {
+  background-color: #e0a80e9c;
+  padding: 5px 10px;
+  border-top: 3px solid white;
+  font-size: 10px;
   text-align: center;
 }
 
@@ -67,7 +70,8 @@ li {
 }
 
 .main-header {
-  background-color: #808080cc;
+  background-color: #e0a80e9c;
+  padding: 20px 40px;
 }
 
 aside {
