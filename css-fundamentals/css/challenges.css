@@ -26,11 +26,13 @@ h4 {
   text-transform: uppercase;
 }
 
-a {
+.info:link,
+.info:visited {
   color: black;
 }
 
-a:hover {
+.info:hover,
+.info:active {
   text-decoration: none;
 }
 
@@ -43,13 +45,13 @@ a:hover {
   font-weight: bold;
 }
 
-button {
+.button {
   text-transform: uppercase;
   background-color: black;
   color: bisque;
 }
 
-button:hover {
+.button:hover {
   color: black;
   background-color: bisque;
 }
