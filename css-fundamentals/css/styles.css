@@ -1,16 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
   font-family: sans-serif;
   border-top: 5px solid rgb(83, 78, 4);
+  margin-left: 5px;
 }
-
-/* h1,
-h2,
-h3,
-h4,
-p,
-li {
-  font-family: sans-serif;
-} */
 
 h1,
 h2,
@@ -27,10 +23,13 @@ h1 {
 
 h2 {
   font-size: 40px;
+  margin-bottom: 30px;
 }
 
 h3 {
   font-size: 30px;
+  margin-bottom: 20px;
+  margin-top: 40px;
 }
 
 h4 {
@@ -41,10 +40,20 @@ h4 {
 p {
   font-size: 22px;
   line-height: 1.5;
+  margin-bottom: 15px;
 }
 
 li {
   font-size: 20px;
+  margin-bottom: 10px;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+article {
+  margin-bottom: 60px;
 }
 
 .footer {
@@ -72,12 +81,16 @@ li {
 .main-header {
   background-color: #e0a80e9c;
   padding: 20px 40px;
+  margin-bottom: 40px;
+  height: 80px;
 }
 
 aside {
-  background-color: rgb(251, 255, 254);
+  background-color: rgba(130, 134, 134, 0.514);
   border-top: 5px solid #1fececcc;
   border-bottom: 5px solid #1fececcc;
+  padding: 50px 0;
+  width: 500px;
 }
 
 li:first-child {
@@ -86,6 +99,7 @@ li:first-child {
 
 li:last-child {
   font-style: italic;
+  margin-bottom: 0;
 }
 
 a:link {
@@ -106,4 +120,24 @@ a:hover {
 a:active {
   background-color: darkslategrey;
   font-style: italic;
+}
+
+ol,
+ul {
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+.post-header {
+  margin-bottom: 40px;
+}
+
+.post-image {
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
 }

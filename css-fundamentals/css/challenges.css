@@ -1,6 +1,10 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
 body {
   background-color: beige;
-  border: 5px solid #000000;
   font-family: sans-serif;
 }
 
@@ -8,8 +12,9 @@ body {
   background-color: rgba(128, 128, 128, 0.41);
   text-align: center;
   text-transform: uppercase;
-  border-top: 2px solid green;
-  border-bottom: 2px solid green;
+  border-top: 2px solid rgb(127, 129, 127);
+  border-bottom: 2px solid rgb(127, 131, 127);
+  padding: 10px;
 }
 
 header p {
@@ -20,10 +25,12 @@ header p {
   font-size: 20px;
   color: rgba(128, 128, 128, 0.596);
   text-transform: uppercase;
+  margin-top: 5px;
 }
 
 h4 {
   text-transform: uppercase;
+  margin-top: 30px;
 }
 
 .info:link,
@@ -50,6 +57,9 @@ h4 {
   background-color: black;
   color: bisque;
   cursor: pointer;
+  padding: 15px;
+  width: 100%;
+  border-bottom: 0;
 }
 
 .button:hover {
@@ -59,4 +69,16 @@ h4 {
 
 .details {
   list-style: square;
+  margin: 20px;
+  line-height: 2;
+}
+
+.container {
+  width: 825px;
+  margin: 40px auto;
+  border: 5px solid #000000;
+}
+
+p {
+  margin-top: 20px;
 }

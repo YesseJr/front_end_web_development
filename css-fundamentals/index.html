@@ -9,6 +9,7 @@
     <title>The Basic Language of the Web: HTML</title>
   </head>
   <body>
+    <div class="container">
     <header class="main-header">
       <h1>📘 The Code Magazine.</h1>
       <nav>
@@ -20,7 +21,7 @@
     </header>
 
     <article>
-      <header>
+      <header class="post-header">
         <h2>The Basic Language of the Web: HTML.</h2>
         <img
           src="img/waython.jpg"
@@ -29,13 +30,11 @@
           height="50"
         />
         <p id="Author">
-          Posted by <strong>Waython Yesse</strong> on Monday, December 12th 2022
+          Posted by <strong>Waython Yesse</strong>, on Monday December 12th 2022
         </p>
-        <img
+        <img class="post-image"
           src="img/post-img.jpg"
           alt="HTML code on the screen"
-          width="1000"
-          height="400"
         />
       </header>
       <p>
@@ -116,5 +115,6 @@
       </header>
     </aside>
     <footer class="footer"><p>Copyright &copy; <script>document.write(new Date().getFullYear())</script> | J11 Technologies.</p></footer>
+  </div>
   </body>
 </html>
